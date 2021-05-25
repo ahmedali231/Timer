@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <h1>Timer</h1>
+        Enter hour and Min
+        <br>
+<input type="number" name="" id="hr" value="0">
+<input type="number" id="mn" value="0">
+<br>
+<button id="dbtn" onclick="inputValue()">Done</button>
+        <div>
+            <h2 id="hour">0</h2>
+            <h2 id="min">0</h2>
+            <h2 id="sec">0</h2>
+            
+        </div>
+        <div>
+            <button onclick="start()" id="dis" disabled>Start</button>
+            <button onclick="paus()">Paus</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
